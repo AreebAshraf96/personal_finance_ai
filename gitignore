@@ -1,0 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Outputs (generated files)
+outputs/plots/
+outputs/anomalies/
+outputs/forecast/
+outputs/reports/
+outputs/tmp/
+
+# IDE configs
+.vscode/
+.idea/
