@@ -4,8 +4,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from src.utils import plot_expenses_by_category, plot_expenses_over_time
-from src.models import detect_anomalies, predict_category, forecast_expenses
+from utils import plot_expenses_by_category, plot_expenses_over_time
+from models import detect_anomalies, predict_category, forecast_expenses
+
 
 # ---------------- Paths ----------------
 BASE = r"C:\Users\hp\personal_finance_ai"
@@ -306,7 +307,7 @@ except Exception as e:
 # ---------------- PDF Report Download ----------------
 st.subheader("📄 Generate PDF Report")
 
-from src.report import generate_pdf_report
+from report import generate_pdf_report
 
 if st.button("📥 Create Full PDF Report"):
     # KPIs
