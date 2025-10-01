@@ -1,0 +1,501 @@
+Date,Description,Category,Amount,Type
+2024-01-01,Freelance Payment,Income,2631.13,Income
+2024-01-01,Lyft,Transport,-58.98,Expense
+2024-01-01,McDonalds,Food,-182.5,Expense
+2024-01-02,Freelance Payment,Income,1856.58,Income
+2024-01-02,McDonalds,Food,-53.62,Expense
+2024-01-02,Dividends,Income,1001.56,Income
+2024-01-02,Salary,Income,1761.04,Income
+2024-01-02,Electricity Co,Bills,-9.5,Expense
+2024-01-03,Walmart,Shopping,-92.82,Expense
+2024-01-03,Water Works,Bills,-80.1,Expense
+2024-01-03,Uber Eats,Food,-144.13,Expense
+2024-01-04,Uber Eats,Food,-188.25,Expense
+2024-01-04,Dominos,Food,-89.82,Expense
+2024-01-04,Metro Ticket,Transport,-33.53,Expense
+2024-01-05,Lyft,Transport,-6.64,Expense
+2024-01-05,Phone Carrier,Bills,-99.39,Expense
+2024-01-06,Dominos,Food,-178.48,Expense
+2024-01-06,Uber Eats,Food,-187.38,Expense
+2024-01-06,eBay,Shopping,-13.71,Expense
+2024-01-06,Subway,Food,-13.32,Expense
+2024-01-07,YouTube Premium,Entertainment,-190.06,Expense
+2024-01-07,Electricity Co,Bills,-135.58,Expense
+2024-01-07,Steam,Entertainment,-125.11,Expense
+2024-01-08,Subway,Food,-95.74,Expense
+2024-01-08,Freelance Payment,Income,2957.59,Income
+2024-01-08,Freelance Payment,Income,1400.6,Income
+2024-01-09,eBay,Shopping,-109.12,Expense
+2024-01-09,Shell,Transport,-73.71,Expense
+2024-01-09,Spotify,Entertainment,-115.95,Expense
+2024-01-09,Dividends,Income,1226.66,Income
+2024-01-10,Salary,Income,930.39,Income
+2024-01-12,Target,Shopping,-65.32,Expense
+2024-01-12,Walmart,Shopping,-37.51,Expense
+2024-01-12,Electricity Co,Bills,-55.6,Expense
+2024-01-12,Water Works,Bills,-182.25,Expense
+2024-01-13,Salary,Income,630.34,Income
+2024-01-13,Internet ISP,Bills,-131.46,Expense
+2024-01-14,Lyft,Transport,-173.88,Expense
+2024-01-14,Freelance Payment,Income,792.91,Income
+2024-01-15,Netflix,Entertainment,-36.59,Expense
+2024-01-15,eBay,Shopping,-155.84,Expense
+2024-01-16,Water Works,Bills,-41.45,Expense
+2024-01-16,Uber Eats,Food,-11.08,Expense
+2024-01-16,Shell,Transport,-122.71,Expense
+2024-01-16,McDonalds,Food,-159.38,Expense
+2024-01-17,Uber Eats,Food,-100.37,Expense
+2024-01-17,Metro Ticket,Transport,-8.71,Expense
+2024-01-17,Steam,Entertainment,-29.59,Expense
+2024-01-18,McDonalds,Food,-190.82,Expense
+2024-01-18,Amazon,Shopping,-107.05,Expense
+2024-01-18,eBay,Shopping,-161.28,Expense
+2024-01-19,Uber,Transport,-183.52,Expense
+2024-01-19,eBay,Shopping,-87.79,Expense
+2024-01-19,Lyft,Transport,-11.65,Expense
+2024-01-19,BP Petrol,Transport,-100.34,Expense
+2024-01-19,Freelance Payment,Income,1164.17,Income
+2024-01-19,Electricity Co,Bills,-190.11,Expense
+2024-01-20,Steam,Entertainment,-170.18,Expense
+2024-01-20,Shell,Transport,-20.71,Expense
+2024-01-21,Netflix,Entertainment,-64.31,Expense
+2024-01-21,Metro Ticket,Transport,-98.97,Expense
+2024-01-21,Target,Shopping,-78.11,Expense
+2024-01-21,Walmart,Shopping,-178.05,Expense
+2024-01-22,Netflix,Entertainment,-87.88,Expense
+2024-01-22,Uber,Transport,-106.92,Expense
+2024-01-23,Dividends,Income,703.76,Income
+2024-01-23,Freelance Payment,Income,2083.03,Income
+2024-01-23,BP Petrol,Transport,-41.89,Expense
+2024-01-23,Netflix,Entertainment,-16.71,Expense
+2024-01-24,Dominos,Food,-163.54,Expense
+2024-01-24,McDonalds,Food,-143.99,Expense
+2024-01-25,Internet ISP,Bills,-11.14,Expense
+2024-01-25,BP Petrol,Transport,-171.94,Expense
+2024-01-26,Phone Carrier,Bills,-100.39,Expense
+2024-01-27,KFC,Food,-24.84,Expense
+2024-01-27,Shell,Transport,-175.52,Expense
+2024-01-27,Shell,Transport,-196.46,Expense
+2024-01-27,Dividends,Income,2026.14,Income
+2024-01-28,Dominos,Food,-47.12,Expense
+2024-01-28,Walmart,Shopping,-40.84,Expense
+2024-01-29,Uber Eats,Food,-184.11,Expense
+2024-01-29,Uber Eats,Food,-34.59,Expense
+2024-01-30,KFC,Food,-83.49,Expense
+2024-01-30,Shell,Transport,-50.97,Expense
+2024-01-30,eBay,Shopping,-49.53,Expense
+2024-01-31,Salary,Income,2433.18,Income
+2024-02-01,YouTube Premium,Entertainment,-112.78,Expense
+2024-02-01,Uber,Transport,-148.84,Expense
+2024-02-01,Uber Eats,Food,-88.34,Expense
+2024-02-03,Salary,Income,1034.22,Income
+2024-02-04,Uber,Transport,-114.66,Expense
+2024-02-04,Amazon,Shopping,-133.11,Expense
+2024-02-04,Dividends,Income,2761.25,Income
+2024-02-05,Spotify,Entertainment,-47.2,Expense
+2024-02-05,eBay,Shopping,-46.28,Expense
+2024-02-05,Electricity Co,Bills,-27.42,Expense
+2024-02-07,Steam,Entertainment,-192.66,Expense
+2024-02-07,Netflix,Entertainment,-194.49,Expense
+2024-02-07,Electricity Co,Bills,-33.52,Expense
+2024-02-07,Salary,Income,1563.86,Income
+2024-02-08,Spotify,Entertainment,-145.93,Expense
+2024-02-09,YouTube Premium,Entertainment,-21.0,Expense
+2024-02-09,BP Petrol,Transport,-80.23,Expense
+2024-02-10,Freelance Payment,Income,1318.52,Income
+2024-02-11,Electricity Co,Bills,-118.5,Expense
+2024-02-11,Target,Shopping,-20.86,Expense
+2024-02-11,Target,Shopping,-32.13,Expense
+2024-02-11,Freelance Payment,Income,2060.1,Income
+2024-02-12,eBay,Shopping,-192.4,Expense
+2024-02-12,Dividends,Income,2558.99,Income
+2024-02-12,Uber,Transport,-46.64,Expense
+2024-02-12,Internet ISP,Bills,-149.72,Expense
+2024-02-12,Freelance Payment,Income,928.7,Income
+2024-02-13,Lyft,Transport,-34.62,Expense
+2024-02-15,Electricity Co,Bills,-168.76,Expense
+2024-02-15,Steam,Entertainment,-81.34,Expense
+2024-02-15,Uber,Transport,-145.81,Expense
+2024-02-15,Uber Eats,Food,-93.49,Expense
+2024-02-16,YouTube Premium,Entertainment,-196.23,Expense
+2024-02-16,Dividends,Income,1512.15,Income
+2024-02-16,eBay,Shopping,-96.99,Expense
+2024-02-16,Freelance Payment,Income,903.18,Income
+2024-02-17,Freelance Payment,Income,1069.08,Income
+2024-02-17,Electricity Co,Bills,-191.47,Expense
+2024-02-17,Steam,Entertainment,-168.23,Expense
+2024-02-17,Lyft,Transport,-66.92,Expense
+2024-02-18,Electricity Co,Bills,-64.43,Expense
+2024-02-18,Steam,Entertainment,-56.72,Expense
+2024-02-18,Uber,Transport,-82.26,Expense
+2024-02-18,Water Works,Bills,-105.82,Expense
+2024-02-19,Uber Eats,Food,-11.03,Expense
+2024-02-19,Salary,Income,2749.84,Income
+2024-02-20,Dividends,Income,958.56,Income
+2024-02-20,Amazon,Shopping,-151.82,Expense
+2024-02-20,Metro Ticket,Transport,-136.92,Expense
+2024-02-20,McDonalds,Food,-107.83,Expense
+2024-02-21,Dominos,Food,-173.16,Expense
+2024-02-21,Metro Ticket,Transport,-35.2,Expense
+2024-02-21,Uber Eats,Food,-91.34,Expense
+2024-02-21,BP Petrol,Transport,-131.94,Expense
+2024-02-21,McDonalds,Food,-63.68,Expense
+2024-02-22,Electricity Co,Bills,-103.56,Expense
+2024-02-22,eBay,Shopping,-60.81,Expense
+2024-02-22,Water Works,Bills,-155.67,Expense
+2024-02-22,Walmart,Shopping,-33.63,Expense
+2024-02-22,Water Works,Bills,-119.17,Expense
+2024-02-22,Internet ISP,Bills,-31.39,Expense
+2024-02-23,Salary,Income,2849.46,Income
+2024-02-23,Amazon,Shopping,-154.08,Expense
+2024-02-24,Target,Shopping,-35.9,Expense
+2024-02-25,Phone Carrier,Bills,-129.44,Expense
+2024-02-25,Dominos,Food,-89.62,Expense
+2024-02-25,Salary,Income,976.15,Income
+2024-02-25,Dominos,Food,-29.29,Expense
+2024-02-25,Salary,Income,1352.7,Income
+2024-02-26,BP Petrol,Transport,-18.08,Expense
+2024-02-26,KFC,Food,-103.67,Expense
+2024-02-27,Uber Eats,Food,-90.95,Expense
+2024-02-27,Uber,Transport,-164.27,Expense
+2024-02-27,Metro Ticket,Transport,-126.66,Expense
+2024-02-27,eBay,Shopping,-158.78,Expense
+2024-02-29,Uber,Transport,-111.38,Expense
+2024-02-29,Steam,Entertainment,-35.37,Expense
+2024-02-29,Steam,Entertainment,-98.7,Expense
+2024-02-29,Water Works,Bills,-46.92,Expense
+2024-02-29,Uber Eats,Food,-194.1,Expense
+2024-03-01,Metro Ticket,Transport,-84.38,Expense
+2024-03-02,Salary,Income,1063.83,Income
+2024-03-03,Electricity Co,Bills,-47.91,Expense
+2024-03-03,Best Buy,Shopping,-142.31,Expense
+2024-03-03,eBay,Shopping,-77.23,Expense
+2024-03-05,Phone Carrier,Bills,-81.76,Expense
+2024-03-06,Netflix,Entertainment,-33.46,Expense
+2024-03-06,Salary,Income,1599.82,Income
+2024-03-06,Internet ISP,Bills,-6.45,Expense
+2024-03-07,Netflix,Entertainment,-49.37,Expense
+2024-03-07,Steam,Entertainment,-174.15,Expense
+2024-03-07,Phone Carrier,Bills,-114.1,Expense
+2024-03-09,Freelance Payment,Income,2377.08,Income
+2024-03-09,Water Works,Bills,-15.6,Expense
+2024-03-09,Uber Eats,Food,-171.48,Expense
+2024-03-09,Water Works,Bills,-183.09,Expense
+2024-03-09,BP Petrol,Transport,-69.71,Expense
+2024-03-09,Internet ISP,Bills,-154.13,Expense
+2024-03-10,Shell,Transport,-68.25,Expense
+2024-03-10,BP Petrol,Transport,-193.39,Expense
+2024-03-10,Salary,Income,677.15,Income
+2024-03-11,Metro Ticket,Transport,-139.92,Expense
+2024-03-12,Amazon,Shopping,-100.76,Expense
+2024-03-12,Subway,Food,-74.93,Expense
+2024-03-14,YouTube Premium,Entertainment,-148.18,Expense
+2024-03-14,Internet ISP,Bills,-93.43,Expense
+2024-03-14,McDonalds,Food,-135.28,Expense
+2024-03-15,Subway,Food,-74.91,Expense
+2024-03-15,Internet ISP,Bills,-113.12,Expense
+2024-03-17,Electricity Co,Bills,-12.21,Expense
+2024-03-17,Freelance Payment,Income,1267.86,Income
+2024-03-18,Walmart,Shopping,-12.6,Expense
+2024-03-18,YouTube Premium,Entertainment,-56.95,Expense
+2024-03-18,Dividends,Income,2013.63,Income
+2024-03-19,Freelance Payment,Income,1928.12,Income
+2024-03-19,Dividends,Income,2897.6,Income
+2024-03-20,Metro Ticket,Transport,-148.37,Expense
+2024-03-20,KFC,Food,-7.09,Expense
+2024-03-20,BP Petrol,Transport,-47.28,Expense
+2024-03-20,Subway,Food,-13.96,Expense
+2024-03-20,Water Works,Bills,-6.19,Expense
+2024-03-21,Dividends,Income,2405.02,Income
+2024-03-21,Amazon,Shopping,-161.8,Expense
+2024-03-21,Dividends,Income,526.79,Income
+2024-03-22,Spotify,Entertainment,-136.49,Expense
+2024-03-22,Water Works,Bills,-159.4,Expense
+2024-03-23,Salary,Income,2755.57,Income
+2024-03-23,BP Petrol,Transport,-151.66,Expense
+2024-03-23,Phone Carrier,Bills,-98.62,Expense
+2024-03-24,Electricity Co,Bills,-106.25,Expense
+2024-03-24,Steam,Entertainment,-109.59,Expense
+2024-03-24,Metro Ticket,Transport,-77.3,Expense
+2024-03-24,Freelance Payment,Income,2637.94,Income
+2024-03-24,KFC,Food,-32.79,Expense
+2024-03-25,Amazon,Shopping,-14.26,Expense
+2024-03-25,Shell,Transport,-133.19,Expense
+2024-03-26,Internet ISP,Bills,-194.85,Expense
+2024-03-26,Phone Carrier,Bills,-191.18,Expense
+2024-03-27,Water Works,Bills,-111.98,Expense
+2024-03-27,Phone Carrier,Bills,-137.66,Expense
+2024-03-27,Internet ISP,Bills,-32.39,Expense
+2024-03-27,Spotify,Entertainment,-157.15,Expense
+2024-03-27,Dividends,Income,580.08,Income
+2024-03-27,Salary,Income,701.08,Income
+2024-03-28,Best Buy,Shopping,-173.32,Expense
+2024-03-28,Best Buy,Shopping,-61.05,Expense
+2024-03-28,Freelance Payment,Income,965.67,Income
+2024-03-28,Uber,Transport,-37.84,Expense
+2024-03-30,Subway,Food,-16.11,Expense
+2024-03-30,YouTube Premium,Entertainment,-194.27,Expense
+2024-03-30,BP Petrol,Transport,-99.93,Expense
+2024-03-30,Netflix,Entertainment,-130.21,Expense
+2024-03-30,Dividends,Income,2790.45,Income
+2024-03-31,Shell,Transport,-27.06,Expense
+2024-03-31,Steam,Entertainment,-24.17,Expense
+2024-03-31,Electricity Co,Bills,-67.2,Expense
+2024-03-31,Dividends,Income,868.64,Income
+2024-03-31,Target,Shopping,-162.48,Expense
+2024-04-01,Best Buy,Shopping,-182.3,Expense
+2024-04-01,Salary,Income,1094.7,Income
+2024-04-01,Target,Shopping,-147.48,Expense
+2024-04-02,Steam,Entertainment,-19.19,Expense
+2024-04-03,Uber Eats,Food,-188.72,Expense
+2024-04-03,Dominos,Food,-142.89,Expense
+2024-04-03,Best Buy,Shopping,-91.61,Expense
+2024-04-03,Water Works,Bills,-29.36,Expense
+2024-04-04,Metro Ticket,Transport,-100.39,Expense
+2024-04-04,Target,Shopping,-12.34,Expense
+2024-04-04,Walmart,Shopping,-32.72,Expense
+2024-04-04,Steam,Entertainment,-16.48,Expense
+2024-04-05,Spotify,Entertainment,-154.3,Expense
+2024-04-05,Shell,Transport,-114.34,Expense
+2024-04-05,eBay,Shopping,-161.38,Expense
+2024-04-05,Electricity Co,Bills,-17.15,Expense
+2024-04-06,Netflix,Entertainment,-141.94,Expense
+2024-04-06,Dominos,Food,-103.65,Expense
+2024-04-06,YouTube Premium,Entertainment,-88.86,Expense
+2024-04-07,Salary,Income,601.35,Income
+2024-04-07,Amazon,Shopping,-31.92,Expense
+2024-04-08,KFC,Food,-67.0,Expense
+2024-04-09,Uber Eats,Food,-85.01,Expense
+2024-04-10,Metro Ticket,Transport,-10.72,Expense
+2024-04-11,Lyft,Transport,-76.21,Expense
+2024-04-11,Shell,Transport,-69.25,Expense
+2024-04-11,Walmart,Shopping,-68.26,Expense
+2024-04-11,Steam,Entertainment,-184.34,Expense
+2024-04-12,McDonalds,Food,-142.59,Expense
+2024-04-12,Best Buy,Shopping,-65.95,Expense
+2024-04-13,Freelance Payment,Income,2014.93,Income
+2024-04-13,Dominos,Food,-101.48,Expense
+2024-04-13,Dominos,Food,-95.24,Expense
+2024-04-13,Phone Carrier,Bills,-141.53,Expense
+2024-04-13,Water Works,Bills,-110.93,Expense
+2024-04-13,Dominos,Food,-84.43,Expense
+2024-04-14,KFC,Food,-92.22,Expense
+2024-04-14,Uber Eats,Food,-181.09,Expense
+2024-04-14,Electricity Co,Bills,-168.14,Expense
+2024-04-14,Shell,Transport,-38.32,Expense
+2024-04-14,Steam,Entertainment,-10.16,Expense
+2024-04-14,Electricity Co,Bills,-165.85,Expense
+2024-04-15,Steam,Entertainment,-45.74,Expense
+2024-04-15,Dividends,Income,1478.86,Income
+2024-04-15,Phone Carrier,Bills,-145.41,Expense
+2024-04-15,Metro Ticket,Transport,-166.35,Expense
+2024-04-16,Spotify,Entertainment,-131.59,Expense
+2024-04-17,Internet ISP,Bills,-76.53,Expense
+2024-04-18,Steam,Entertainment,-48.33,Expense
+2024-04-18,YouTube Premium,Entertainment,-160.07,Expense
+2024-04-18,Lyft,Transport,-25.62,Expense
+2024-04-18,Dominos,Food,-157.37,Expense
+2024-04-19,Walmart,Shopping,-133.14,Expense
+2024-04-19,Best Buy,Shopping,-47.51,Expense
+2024-04-20,Subway,Food,-21.71,Expense
+2024-04-20,Best Buy,Shopping,-129.74,Expense
+2024-04-21,McDonalds,Food,-70.92,Expense
+2024-04-21,eBay,Shopping,-49.01,Expense
+2024-04-21,BP Petrol,Transport,-141.54,Expense
+2024-04-21,Subway,Food,-88.49,Expense
+2024-04-22,Water Works,Bills,-154.07,Expense
+2024-04-22,Shell,Transport,-132.81,Expense
+2024-04-22,Phone Carrier,Bills,-37.57,Expense
+2024-04-22,Electricity Co,Bills,-56.8,Expense
+2024-04-23,Dividends,Income,2143.69,Income
+2024-04-23,Internet ISP,Bills,-40.63,Expense
+2024-04-23,KFC,Food,-100.85,Expense
+2024-04-23,Dividends,Income,2206.32,Income
+2024-04-24,Internet ISP,Bills,-96.97,Expense
+2024-04-24,Dominos,Food,-13.56,Expense
+2024-04-24,Spotify,Entertainment,-192.96,Expense
+2024-04-25,Steam,Entertainment,-188.68,Expense
+2024-04-25,Uber,Transport,-182.9,Expense
+2024-04-25,Internet ISP,Bills,-115.69,Expense
+2024-04-26,Dividends,Income,878.3,Income
+2024-04-26,Subway,Food,-65.64,Expense
+2024-04-27,BP Petrol,Transport,-8.82,Expense
+2024-04-27,Lyft,Transport,-174.71,Expense
+2024-04-27,Best Buy,Shopping,-52.59,Expense
+2024-04-27,Phone Carrier,Bills,-78.0,Expense
+2024-04-27,Best Buy,Shopping,-55.34,Expense
+2024-04-28,Lyft,Transport,-73.03,Expense
+2024-04-29,YouTube Premium,Entertainment,-121.54,Expense
+2024-04-29,Uber,Transport,-113.24,Expense
+2024-04-29,Water Works,Bills,-134.01,Expense
+2024-04-29,Lyft,Transport,-92.92,Expense
+2024-04-29,Best Buy,Shopping,-62.85,Expense
+2024-04-30,Dividends,Income,669.46,Income
+2024-04-30,Spotify,Entertainment,-21.18,Expense
+2024-04-30,McDonalds,Food,-138.97,Expense
+2024-05-01,Metro Ticket,Transport,-176.3,Expense
+2024-05-01,Metro Ticket,Transport,-9.42,Expense
+2024-05-02,KFC,Food,-121.92,Expense
+2024-05-02,Salary,Income,969.04,Income
+2024-05-02,KFC,Food,-110.64,Expense
+2024-05-02,BP Petrol,Transport,-199.94,Expense
+2024-05-02,McDonalds,Food,-85.02,Expense
+2024-05-02,Shell,Transport,-88.93,Expense
+2024-05-02,Walmart,Shopping,-55.94,Expense
+2024-05-03,Freelance Payment,Income,512.38,Income
+2024-05-04,Dominos,Food,-174.0,Expense
+2024-05-04,Walmart,Shopping,-168.45,Expense
+2024-05-04,Target,Shopping,-126.26,Expense
+2024-05-05,Subway,Food,-186.77,Expense
+2024-05-05,Uber Eats,Food,-152.28,Expense
+2024-05-05,Phone Carrier,Bills,-83.73,Expense
+2024-05-06,Freelance Payment,Income,2710.99,Income
+2024-05-06,Freelance Payment,Income,2614.09,Income
+2024-05-06,eBay,Shopping,-64.48,Expense
+2024-05-07,Spotify,Entertainment,-68.72,Expense
+2024-05-08,Lyft,Transport,-87.96,Expense
+2024-05-09,Metro Ticket,Transport,-101.27,Expense
+2024-05-09,McDonalds,Food,-96.59,Expense
+2024-05-09,Dividends,Income,1890.23,Income
+2024-05-09,Water Works,Bills,-199.76,Expense
+2024-05-10,Water Works,Bills,-16.28,Expense
+2024-05-10,Netflix,Entertainment,-155.45,Expense
+2024-05-10,Netflix,Entertainment,-192.6,Expense
+2024-05-10,Metro Ticket,Transport,-59.01,Expense
+2024-05-11,Internet ISP,Bills,-175.48,Expense
+2024-05-11,Dividends,Income,2414.66,Income
+2024-05-11,Shell,Transport,-49.12,Expense
+2024-05-11,eBay,Shopping,-78.11,Expense
+2024-05-12,Salary,Income,1933.08,Income
+2024-05-13,Freelance Payment,Income,1952.68,Income
+2024-05-13,Steam,Entertainment,-32.28,Expense
+2024-05-13,Spotify,Entertainment,-47.45,Expense
+2024-05-13,Dominos,Food,-44.29,Expense
+2024-05-14,Internet ISP,Bills,-51.25,Expense
+2024-05-14,Netflix,Entertainment,-88.83,Expense
+2024-05-14,Spotify,Entertainment,-156.97,Expense
+2024-05-15,Metro Ticket,Transport,-16.12,Expense
+2024-05-15,BP Petrol,Transport,-198.75,Expense
+2024-05-15,KFC,Food,-171.3,Expense
+2024-05-15,Subway,Food,-120.33,Expense
+2024-05-16,Uber Eats,Food,-131.06,Expense
+2024-05-17,Dividends,Income,2735.51,Income
+2024-05-19,Uber,Transport,-136.68,Expense
+2024-05-19,Uber,Transport,-100.27,Expense
+2024-05-19,Dividends,Income,843.28,Income
+2024-05-20,Best Buy,Shopping,-148.5,Expense
+2024-05-21,Shell,Transport,-119.75,Expense
+2024-05-21,YouTube Premium,Entertainment,-121.31,Expense
+2024-05-22,Steam,Entertainment,-110.36,Expense
+2024-05-22,Steam,Entertainment,-34.04,Expense
+2024-05-23,Water Works,Bills,-43.56,Expense
+2024-05-24,Uber,Transport,-100.74,Expense
+2024-05-24,Steam,Entertainment,-170.68,Expense
+2024-05-25,Steam,Entertainment,-108.47,Expense
+2024-05-25,Uber Eats,Food,-8.97,Expense
+2024-05-25,Steam,Entertainment,-193.74,Expense
+2024-05-25,KFC,Food,-159.97,Expense
+2024-05-26,KFC,Food,-62.48,Expense
+2024-05-26,Target,Shopping,-188.72,Expense
+2024-05-26,Target,Shopping,-128.97,Expense
+2024-05-26,Internet ISP,Bills,-107.6,Expense
+2024-05-26,Target,Shopping,-28.6,Expense
+2024-05-26,YouTube Premium,Entertainment,-94.29,Expense
+2024-05-27,YouTube Premium,Entertainment,-37.17,Expense
+2024-05-27,Netflix,Entertainment,-64.11,Expense
+2024-05-27,Freelance Payment,Income,2279.64,Income
+2024-05-28,Spotify,Entertainment,-177.65,Expense
+2024-05-29,Shell,Transport,-159.26,Expense
+2024-05-29,Salary,Income,1165.65,Income
+2024-05-30,Steam,Entertainment,-6.45,Expense
+2024-05-30,Spotify,Entertainment,-173.4,Expense
+2024-05-30,Metro Ticket,Transport,-42.2,Expense
+2024-05-31,Subway,Food,-173.17,Expense
+2024-05-31,Best Buy,Shopping,-11.01,Expense
+2024-05-31,Netflix,Entertainment,-27.6,Expense
+2024-05-31,Internet ISP,Bills,-23.95,Expense
+2024-06-01,Spotify,Entertainment,-24.61,Expense
+2024-06-01,Best Buy,Shopping,-136.6,Expense
+2024-06-01,Subway,Food,-160.56,Expense
+2024-06-02,Dominos,Food,-117.37,Expense
+2024-06-03,Netflix,Entertainment,-92.58,Expense
+2024-06-03,Metro Ticket,Transport,-48.48,Expense
+2024-06-03,Walmart,Shopping,-148.0,Expense
+2024-06-04,Salary,Income,2556.42,Income
+2024-06-04,Uber Eats,Food,-97.06,Expense
+2024-06-04,Salary,Income,953.2,Income
+2024-06-05,Freelance Payment,Income,2480.45,Income
+2024-06-05,Steam,Entertainment,-138.48,Expense
+2024-06-05,Lyft,Transport,-160.08,Expense
+2024-06-06,Spotify,Entertainment,-166.89,Expense
+2024-06-07,Freelance Payment,Income,872.42,Income
+2024-06-07,Metro Ticket,Transport,-144.08,Expense
+2024-06-07,Lyft,Transport,-40.12,Expense
+2024-06-08,KFC,Food,-72.21,Expense
+2024-06-08,Walmart,Shopping,-175.99,Expense
+2024-06-08,Water Works,Bills,-20.78,Expense
+2024-06-08,Netflix,Entertainment,-59.87,Expense
+2024-06-09,Dividends,Income,2879.69,Income
+2024-06-09,Freelance Payment,Income,2008.67,Income
+2024-06-10,Electricity Co,Bills,-135.9,Expense
+2024-06-11,YouTube Premium,Entertainment,-138.48,Expense
+2024-06-11,Metro Ticket,Transport,-88.89,Expense
+2024-06-12,Internet ISP,Bills,-194.33,Expense
+2024-06-12,Salary,Income,2185.04,Income
+2024-06-13,Freelance Payment,Income,828.31,Income
+2024-06-14,Uber Eats,Food,-125.36,Expense
+2024-06-14,Steam,Entertainment,-108.49,Expense
+2024-06-15,Uber,Transport,-139.65,Expense
+2024-06-15,Freelance Payment,Income,1770.88,Income
+2024-06-15,Netflix,Entertainment,-33.62,Expense
+2024-06-15,YouTube Premium,Entertainment,-132.95,Expense
+2024-06-16,BP Petrol,Transport,-59.14,Expense
+2024-06-16,Lyft,Transport,-140.02,Expense
+2024-06-17,YouTube Premium,Entertainment,-21.49,Expense
+2024-06-17,Dividends,Income,2167.17,Income
+2024-06-18,Metro Ticket,Transport,-36.29,Expense
+2024-06-18,Salary,Income,2459.54,Income
+2024-06-18,Salary,Income,2172.15,Income
+2024-06-18,Netflix,Entertainment,-32.53,Expense
+2024-06-18,Metro Ticket,Transport,-162.1,Expense
+2024-06-18,Lyft,Transport,-156.11,Expense
+2024-06-19,Target,Shopping,-182.89,Expense
+2024-06-19,Electricity Co,Bills,-166.98,Expense
+2024-06-19,Target,Shopping,-132.09,Expense
+2024-06-19,Freelance Payment,Income,659.68,Income
+2024-06-19,Dividends,Income,1344.15,Income
+2024-06-20,BP Petrol,Transport,-170.24,Expense
+2024-06-20,Metro Ticket,Transport,-199.96,Expense
+2024-06-20,Target,Shopping,-183.68,Expense
+2024-06-20,Spotify,Entertainment,-98.45,Expense
+2024-06-21,Uber Eats,Food,-96.77,Expense
+2024-06-21,McDonalds,Food,-136.49,Expense
+2024-06-22,McDonalds,Food,-136.18,Expense
+2024-06-22,Freelance Payment,Income,2900.06,Income
+2024-06-22,BP Petrol,Transport,-108.77,Expense
+2024-06-22,Spotify,Entertainment,-151.46,Expense
+2024-06-23,Water Works,Bills,-135.44,Expense
+2024-06-23,Spotify,Entertainment,-34.41,Expense
+2024-06-23,Lyft,Transport,-57.09,Expense
+2024-06-24,Internet ISP,Bills,-148.18,Expense
+2024-06-24,Water Works,Bills,-81.67,Expense
+2024-06-24,Uber,Transport,-163.08,Expense
+2024-06-24,Dividends,Income,1657.6,Income
+2024-06-25,KFC,Food,-33.23,Expense
+2024-06-25,Metro Ticket,Transport,-59.4,Expense
+2024-06-25,Freelance Payment,Income,647.15,Income
+2024-06-25,KFC,Food,-60.81,Expense
+2024-06-25,Uber,Transport,-178.08,Expense
+2024-06-25,Netflix,Entertainment,-58.81,Expense
+2024-06-25,McDonalds,Food,-158.71,Expense
+2024-06-27,Electricity Co,Bills,-28.43,Expense
+2024-06-27,Subway,Food,-94.58,Expense
+2024-06-27,Spotify,Entertainment,-11.38,Expense
+2024-06-28,Phone Carrier,Bills,-163.82,Expense
+2024-06-28,Uber,Transport,-43.95,Expense
+2024-06-28,Steam,Entertainment,-186.69,Expense
+2024-06-28,Dividends,Income,2318.94,Income
+2024-06-29,Uber,Transport,-33.21,Expense
+2024-06-29,Internet ISP,Bills,-80.99,Expense
+2024-06-29,eBay,Shopping,-143.22,Expense
+2024-06-30,Subway,Food,-50.27,Expense
