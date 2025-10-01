@@ -9,8 +9,9 @@ from models import detect_anomalies, predict_category, forecast_expenses
 
 
 # ---------------- Paths ----------------
-BASE = r"C:\Users\hp\personal_finance_ai"
+BASE = os.path.dirname(os.path.dirname(__file__))  # project root
 DATA_FILE = os.path.join(BASE, "data", "clean_transactions.csv")
+
 PLOTS_DIR = os.path.join(BASE, "outputs", "plots")
 ANOMALIES_FILE = os.path.join(BASE, "outputs", "anomalies", "anomalies.csv")
 FORECAST_DIR = os.path.join(BASE, "outputs", "forecast")
