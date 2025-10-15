@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="text-center py-5">
+    <h1 class="mb-3">Welcome to Personal Finance AI</h1>
+    <p class="lead">Create an account or log in to start analysing your finances.</p>
+    <a class="btn btn-primary btn-lg me-2" href="{{ url_for('login') }}">Log in</a>
+    <a class="btn btn-outline-secondary btn-lg" href="{{ url_for('register') }}">Register</a>
+  </div>
+{% endblock %}

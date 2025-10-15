@@ -1,84 +1,105 @@
 import os
 import pandas as pd
-import matplotlib.pyplot as plt
 from fpdf import FPDF
 
-# ---------------- PDF GENERATOR ----------------
 def generate_pdf_report(
     df,
     kpis: dict,
-    cat_plot: str,
-    time_plot: str,
-    monthly_plot: str,
-    savings_plot: str,
-    pie_plot: str,
-    top_cats: pd.DataFrame,
-    top_merchants: pd.DataFrame,
-    anomalies_csv: str,
-    forecast_plot: str,
-    save_path: str
+    cat_plot: str = "",
+    time_plot: str = "",
+    monthly_plot: str = "",
+    savings_plot: str = "",
+    pie_plot: str = "",
+    top_cats: pd.DataFrame = pd.DataFrame(),
+    top_merchants: pd.DataFrame = pd.DataFrame(),
+    anomalies_csv: str = "",
+    forecast_plot: str = "",
+    save_path: str = "finance_report.pdf",
 ):
-    pdf = FPDF()
+    pdf = FPDF("P", "mm", "A4")
+    pdf.set_auto_page_break(auto=True, margin=15)
     pdf.add_page()
 
-    # ✅ Register fonts (regular + bold)
-    pdf.add_font("DejaVu", "", r"C:\Users\hp\personal_finance_ai\fonts\dejavu-fonts-ttf-2.37\ttf\DejaVuSans.ttf")
-    pdf.add_font("DejaVu", "B", r"C:\Users\hp\personal_finance_ai\fonts\dejavu-fonts-ttf-2.37\ttf\DejaVuSans-Bold.ttf")
+    # ---------------- Cover Page ----------------
+    pdf.set_font("Helvetica", "B", 20)
+    pdf.cell(0, 15, "Personal Finance AI Report", ln=True, align="C")
+    pdf.ln(5)
+    pdf.set_font("Helvetica", "", 12)
+    pdf.multi_cell(0, 8, "A comprehensive overview of your financial activity, spending insights, anomalies, and forecast trends generated using AI models.")
+    pdf.ln(10)
 
-    # Title
-    pdf.set_font("DejaVu", "B", 16)
-    pdf.cell(0, 12, "Personal Finance AI - Report", new_x="LMARGIN", new_y="NEXT")
+    # KPIs Section
+    pdf.set_font("Helvetica", "B", 14)
+    pdf.cell(0, 10, "Key Financial Metrics", ln=True)
+    pdf.set_font("Helvetica", "", 12)
+    pdf.cell(0, 8, f"Total Income:  ${kpis['income']:,.2f}", ln=True)
+    pdf.cell(0, 8, f"Total Expenses: ${kpis['expenses']:,.2f}", ln=True)
+    pdf.cell(0, 8, f"Net Savings:   ${kpis['savings']:,.2f}", ln=True)
+    pdf.cell(0, 8, f"Savings Rate:  {kpis['rate']:.1f}%", ln=True)
+    pdf.ln(10)
+
+    # ---------------- Charts Page ----------------
+    pdf.set_font("Helvetica", "B", 14)
+    pdf.cell(0, 10, "Visual Insights", ln=True)
+    pdf.set_font("Helvetica", "", 11)
+    pdf.cell(0, 6, "Expenses, savings, and distribution charts.", ln=True)
     pdf.ln(5)
 
-    # ---------------- KPIs ----------------
-    pdf.set_font("DejaVu", "", 12)
-    pdf.multi_cell(
-        0, 10,
-        f"Total Income: ${kpis['income']:,.2f}\n"
-        f"Total Expenses: ${kpis['expenses']:,.2f}\n"
-        f"Net Savings: ${kpis['savings']:,.2f}\n"
-        f"Savings Rate: {kpis['rate']:.1f}%"
-    )
+    for title, img_path in [
+        ("Expenses by Category", cat_plot),
+        ("Expenses Over Time", time_plot),
+        ("Monthly Income vs Expenses", monthly_plot),
+        ("Savings Rate Trend", savings_plot),
+        ("Expense Distribution", pie_plot),
+    ]:
+        if img_path and os.path.exists(img_path):
+            pdf.cell(0, 8, title, ln=True)
+            pdf.image(img_path, w=160)
+            pdf.ln(6)
 
-    # ---------------- Charts ----------------
-    def add_chart(title, path, width=120):
+    # ---------------- Top 5 Section ----------------
+    if not top_cats.empty or not top_merchants.empty:
         pdf.add_page()
-        pdf.set_font("DejaVu", "B", 14)
-        pdf.cell(0, 10, title, new_x="LMARGIN", new_y="NEXT")
-        pdf.image(path, w=width)
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.cell(0, 10, "Top 5 Spending Categories & Merchants", ln=True)
+        pdf.set_font("Helvetica", "", 12)
+        pdf.ln(5)
 
-    add_chart("Expenses by Category", cat_plot)
-    add_chart("Expenses Over Time", time_plot)
-    add_chart("Monthly Income vs Expenses", monthly_plot)
-    add_chart("Savings Rate Trend", savings_plot)
-    add_chart("Expense Distribution by Category", pie_plot)
+        if not top_cats.empty:
+            pdf.cell(0, 8, "Top Categories:", ln=True)
+            for _, row in top_cats.iterrows():
+                pdf.cell(0, 8, f" - {row['Category']}: {row['Total Spent']}", ln=True)
+            pdf.ln(5)
+        if not top_merchants.empty:
+            pdf.cell(0, 8, "Top Merchants:", ln=True)
+            for _, row in top_merchants.iterrows():
+                pdf.cell(0, 8, f" - {row['Description']}: {row['Total Spent']}", ln=True)
 
-    # ---------------- Top 5 Tables ----------------
-    pdf.add_page()
-    pdf.set_font("DejaVu", "B", 14)
-    pdf.cell(0, 10, "Top 5 Categories & Merchants", new_x="LMARGIN", new_y="NEXT")
+    # ---------------- Anomaly Section ----------------
+    if anomalies_csv and os.path.exists(anomalies_csv):
+        pdf.add_page()
+        anomalies_df = pd.read_csv(anomalies_csv)
+        count = len(anomalies_df[anomalies_df["Anomaly"] == "Anomaly"])
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.cell(0, 10, "Anomaly Detection Summary", ln=True)
+        pdf.set_font("Helvetica", "", 12)
+        pdf.multi_cell(0, 8, f"Detected {count} unusual spending patterns using Isolation Forest model.")
+        pdf.ln(5)
 
-    pdf.set_font("DejaVu", "", 12)
-    pdf.cell(0, 10, "Top 5 Categories:", new_x="LMARGIN", new_y="NEXT")
-    for _, row in top_cats.iterrows():
-        pdf.cell(0, 8, f" - {row['Category']}: {row['Total Spent']}", new_x="LMARGIN", new_y="NEXT")
+    # ---------------- Forecast Section ----------------
+    if forecast_plot and os.path.exists(forecast_plot):
+        pdf.add_page()
+        pdf.set_font("Helvetica", "B", 14)
+        pdf.cell(0, 10, "Forecast Summary", ln=True)
+        pdf.image(forecast_plot, w=160)
+        pdf.ln(5)
+        pdf.set_font("Helvetica", "", 12)
+        pdf.multi_cell(0, 8, "This projection estimates future spending trends based on historical data using Prophet forecasting model.")
 
-    pdf.ln(5)
-    pdf.cell(0, 10, "Top 5 Merchants:", new_x="LMARGIN", new_y="NEXT")
-    for _, row in top_merchants.iterrows():
-        pdf.cell(0, 8, f" - {row['Description']}: {row['Total Spent']}", new_x="LMARGIN", new_y="NEXT")
-
-    # ---------------- Anomalies ----------------
-    pdf.add_page()
-    pdf.set_font("DejaVu", "B", 14)
-    pdf.cell(0, 10, "Anomaly Detection", new_x="LMARGIN", new_y="NEXT")
-    anomalies_df = pd.read_csv(anomalies_csv)
-    anomalies_count = len(anomalies_df[anomalies_df["Anomaly"] == "Anomaly"])
-    pdf.set_font("DejaVu", "", 12)
-    pdf.multi_cell(0, 10, f"Found {anomalies_count} anomalies in spending data.")
-
-    # ---------------- Forecast ----------------
-    add_chart("Expense Forecast", forecast_plot)
+    # ---------------- Footer ----------------
+    pdf.set_y(-20)
+    pdf.set_font("Helvetica", "I", 9)
+    pdf.cell(0, 10, "Generated by Personal Finance AI - Streamlit App", align="C")
 
     pdf.output(save_path)
-    print(f"✅ PDF Report generated at {save_path}")
+    print(f"✅ PDF generated successfully at {save_path}")
