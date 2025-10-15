@@ -14,7 +14,8 @@ from models import detect_anomalies, predict_category, forecast_expenses
 from report import generate_pdf_report
 
 # ----------------- BACKEND URL -----------------
-BACKEND_URL = "http://127.0.0.1:5000"
+BACKEND_URL = os.environ.get("BACKEND_URL", "http://127.0.0.1:5000")
+
 
 # ----------------- STREAMLIT CONFIG -----------------
 st.set_page_config(page_title="Personal Finance AI", layout="wide")
